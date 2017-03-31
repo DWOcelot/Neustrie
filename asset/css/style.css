@@ -1,1 +1,390 @@
-@import url('https://fonts.googleapis.com/css?family=Lobster|Righteous');.callout{margin:0}a{color:inherit}a:hover,a:focus{color:inherit}.menu-style{margin:auto 1em;display:inline-block;position:relative;background-color:black;color:#eee;transition:.4s ease}.menu-style:after{content:'';display:block;margin:auto;height:2.5px;width:0;background:transparent;transition:width .4s ease,background-color .4s ease}.menu-style:hover{background-color:#eee;color:black}.menu-style:hover:after{background-color:black;color:black;width:100%}body{background-image:url('../images/book.jpg');background-size:cover;background-attachment:fixed;background-repeat:no-repeat}#progress-bar{z-index:3;position:fixed;background-color:black;width:100%;height:3px}.top-bar{background-color:transparent;color:white}.top-bar .siteTitle h1{font-family:'Righteous',cursive;margin:auto 1em;display:inline-block;position:relative;background-color:black;color:#eee;transition:.4s ease;background-color:transparent}.top-bar .siteTitle h1:after{content:'';display:block;margin:auto;height:2.5px;width:0;background:transparent;transition:width .4s ease,background-color .4s ease}.top-bar .siteTitle h1:hover{background-color:#eee;color:black}.top-bar .siteTitle h1:hover:after{background-color:black;color:black;width:100%}.top-bar .top-bar-right .menu{background:none}.top-bar .top-bar-right .menu li{margin:auto 1em;display:inline-block;position:relative;background-color:black;color:#eee;transition:.4s ease;font-weight:600}.top-bar .top-bar-right .menu li:after{content:'';display:block;margin:auto;height:2.5px;width:0;background:transparent;transition:width .4s ease,background-color .4s ease}.top-bar .top-bar-right .menu li:hover{background-color:#eee;color:black}.top-bar .top-bar-right .menu li:hover:after{background-color:black;color:black;width:100%}#wrapper{width:100%;padding-top:3px}#presentation{background-color:black;min-width:100%}#presentation .slickslider{transition:.4s ease-in-out}#presentation .slickslider .slick-list{z-index:2}#presentation .slickslider:hover .slick-prev{top:0}#presentation .slickslider:hover .slick-next{bottom:0}#presentation .slickslider .slick-arrow{position:relative;padding-top:5px;padding-bottom:5px;padding-left:50px;padding-right:50px;color:black;background-color:white;border:.5px solid black;transition:.2s ease-in-out}#presentation .slickslider .slick-arrow:hover{color:white;background-color:black;border:.5px solid white}#presentation .slickslider .slick-prev{left:50%;top:2.8em}#presentation .slickslider .slick-next{left:50%;bottom:2.8em}#presentation .slickslider .one-slide{position:relative}#presentation .slickslider .one-slide img{display:block}#presentation .slickslider .one-slide p{padding-left:20px;padding-right:20px;position:absolute;top:5%;left:2%;color:white;background-color:rgba(0,0,0,0.6);font-size:1.3rem;font-style:italic;font-weight:bold}#presentation .slickslider .one-slide iframe{position:absolute;top:0;left:0;height:100%;width:100%}#qui-sommes-nous{margin-top:2em;margin-bottom:2em;padding-top:2em;padding-bottom:2em}#qui-sommes-nous .media-object{color:#eee;background-color:rgba(0,0,0,0.8);border:1px solid #eee}#qui-sommes-nous .media-object .thumbnail{display:flex}#qui-sommes-nous .media-object .media-object-text{padding:15px}#qui-sommes-nous .media-object .media-object-text p{line-height:1.8}#toggleContactForm{margin:auto 1em;display:inline-block;position:relative;background-color:black;transition:.4s ease;color:#eee;font-weight:600;padding:13px;background-color:rgba(0,0,0,0.9);border:2px solid #eee}#toggleContactForm:after{content:'';display:block;margin:auto;height:2.5px;width:0;background:transparent;transition:width .4s ease,background-color .4s ease}#toggleContactForm:hover{background-color:#eee;color:black}#toggleContactForm:hover:after{background-color:black;color:black;width:100%}#contact{background-color:rgba(0,0,0,0.8)}#contact .contactForm{display:none;text-align:-webkit-center;text-align:-ms-center;text-align:-moz-center;padding-top:1em;padding-bottom:1em}#contact .contactForm label{color:white}#contact .contactForm input,#contact .contactForm textarea{margin-bottom:1em}#contact .contactForm input:focus,#contact .contactForm textarea:focus{transform:scale(1.03);border:3px solid black;background-color:#fefefe;outline:none;box-shadow:1px 1px 6px 0 azure;transition:box-shadow .5s ease-in-out,border-color .5s ease-in-out,transform .5s ease}#contact .contactForm .errorForm{color:darkorange}#contact .contactForm .button.secondary{color:black;background-color:white;transition:.4s ease}#contact .contactForm .button.secondary:hover{transform:scale(1.03);color:white;background-color:black;border:1px solid white}#backToTop{opacity:0;z-index:2;position:fixed;bottom:1em;right:1em;color:#eee;padding:13px;background-color:rgba(0,0,0,0.9);border:2px solid #eee;border-radius:50%;transition:.4s ease}#backToTop:hover{transform:scale(1.15);background-color:rgba(255,255,255,0.9);color:black;border-color:black}#footer{background-color:black;color:white;padding-top:1em;padding-bottom:1em}#footer .social-media i{font-size:1.5em;cursor:pointer;margin:auto 1em;display:inline-block;position:relative;background-color:black;color:#eee;transition:.4s ease;padding:2px;margin:auto 10px}#footer .social-media i:after{content:'';display:block;margin:auto;height:2.5px;width:0;background:transparent;transition:width .4s ease,background-color .4s ease}#footer .social-media i:hover{background-color:#eee;color:black}#footer .social-media i:hover:after{background-color:black;color:black;width:100%}#footer .social-media i:after{height:2px}#footer .social-media i a{font-size:17px}.slicknav_menu{display:none}@media screen and (max-width:925px){#menu{display:none}.siteTitle{text-align:center}.slicknav_menu{display:block;background-color:black}.slicknav_menu .slicknav_btn{border-radius:0}.slicknav_menu .slicknav_nav{display:flex;align-items:center;justify-content:center}.slicknav_menu .slicknav_nav a{margin:auto 1em;display:inline-block;position:relative;background-color:black;color:#eee;transition:.4s ease}.slicknav_menu .slicknav_nav a:after{content:'';display:block;margin:auto;height:2.5px;width:0;background:transparent;transition:width .4s ease,background-color .4s ease}.slicknav_menu .slicknav_nav a:hover{background-color:#eee;color:black}.slicknav_menu .slicknav_nav a:hover:after{background-color:black;color:black;width:100%}.slicknav_menu .slicknav_nav a:hover{border-radius:0}.slicknav_menu .slicknav_nav a:after{height:1.5px}}
+@import url('https://fonts.googleapis.com/css?family=Lobster|Righteous');
+.callout {
+  margin: 0;
+}
+a {
+  color: inherit;
+}
+a:hover,
+a:focus {
+  color: inherit;
+}
+.menu-style {
+  margin: auto 1em;
+  display: inline-block;
+  position: relative;
+  background-color: black;
+  color: #eee;
+  transition: .4s ease;
+}
+.menu-style:after {
+  content: '';
+  display: block;
+  margin: auto;
+  height: 2.5px;
+  width: 0px;
+  background: transparent;
+  transition: width 0.4s ease, background-color 0.4s ease;
+}
+.menu-style:hover {
+  background-color: #eee;
+  color: black;
+}
+.menu-style:hover:after {
+  background-color: black;
+  color: black;
+  width: 100%;
+}
+body {
+  background-image: url('../images/book.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+#progress-bar {
+  z-index: 3;
+  position: fixed;
+  top: 0;
+  background-color: black;
+  width: 100%;
+  height: 3px;
+}
+.top-bar {
+  background-color: transparent;
+  color: white;
+}
+.top-bar .siteTitle h1 {
+  font-family: 'Righteous', cursive;
+  margin: auto 1em;
+  display: inline-block;
+  position: relative;
+  background-color: black;
+  color: #eee;
+  transition: .4s ease;
+  background-color: transparent;
+}
+.top-bar .siteTitle h1:after {
+  content: '';
+  display: block;
+  margin: auto;
+  height: 2.5px;
+  width: 0px;
+  background: transparent;
+  transition: width 0.4s ease, background-color 0.4s ease;
+}
+.top-bar .siteTitle h1:hover {
+  background-color: #eee;
+  color: black;
+}
+.top-bar .siteTitle h1:hover:after {
+  background-color: black;
+  color: black;
+  width: 100%;
+}
+.top-bar .top-bar-right .menu {
+  background: none;
+}
+.top-bar .top-bar-right .menu li {
+  margin: auto 1em;
+  display: inline-block;
+  position: relative;
+  background-color: black;
+  color: #eee;
+  transition: .4s ease;
+  font-weight: 600;
+}
+.top-bar .top-bar-right .menu li:after {
+  content: '';
+  display: block;
+  margin: auto;
+  height: 2.5px;
+  width: 0px;
+  background: transparent;
+  transition: width 0.4s ease, background-color 0.4s ease;
+}
+.top-bar .top-bar-right .menu li:hover {
+  background-color: #eee;
+  color: black;
+}
+.top-bar .top-bar-right .menu li:hover:after {
+  background-color: black;
+  color: black;
+  width: 100%;
+}
+#wrapper {
+  width: 100%;
+  padding-top: 3px;
+}
+#presentation {
+  background-color: black;
+  min-width: 100%;
+}
+#presentation .slickslider {
+  transition: 0.4s ease-in-out;
+}
+#presentation .slickslider .slick-list {
+  z-index: 2;
+}
+#presentation .slickslider:hover .slick-prev {
+  top: 0;
+}
+#presentation .slickslider:hover .slick-next {
+  bottom: 0;
+}
+#presentation .slickslider .slick-arrow {
+  position: relative;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: black;
+  background-color: white;
+  border: .5px solid black;
+  transition: 0.2s ease-in-out;
+}
+#presentation .slickslider .slick-arrow:hover {
+  color: white;
+  background-color: black;
+  border: .5px solid white;
+}
+#presentation .slickslider .slick-prev {
+  left: 50%;
+  top: 2.8em;
+}
+#presentation .slickslider .slick-next {
+  left: 50%;
+  bottom: 2.8em;
+}
+#presentation .slickslider .one-slide {
+  position: relative;
+}
+#presentation .slickslider .one-slide img {
+  display: block;
+}
+#presentation .slickslider .one-slide p {
+  padding-left: 20px;
+  padding-right: 20px;
+  position: absolute;
+  top: 5%;
+  left: 2%;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  font-size: 1.3rem;
+  font-style: italic;
+  font-weight: bold;
+}
+#presentation .slickslider .one-slide iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+#qui-sommes-nous {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+#qui-sommes-nous .media-object {
+  color: #eee;
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 1px solid #eee;
+}
+#qui-sommes-nous .media-object .thumbnail {
+  display: flex;
+}
+#qui-sommes-nous .media-object .media-object-text {
+  padding: 15px;
+}
+#qui-sommes-nous .media-object .media-object-text p {
+  line-height: 1.8;
+}
+#toggleContactForm {
+  margin: auto 1em;
+  display: inline-block;
+  position: relative;
+  background-color: black;
+  transition: .4s ease;
+  color: #eee;
+  font-weight: 600;
+  padding: 13px;
+  background-color: rgba(0, 0, 0, 0.9);
+  border: 2px solid #eee;
+}
+#toggleContactForm:after {
+  content: '';
+  display: block;
+  margin: auto;
+  height: 2.5px;
+  width: 0px;
+  background: transparent;
+  transition: width 0.4s ease, background-color 0.4s ease;
+}
+#toggleContactForm:hover {
+  background-color: #eee;
+  color: black;
+}
+#toggleContactForm:hover:after {
+  background-color: black;
+  color: black;
+  width: 100%;
+}
+#contact {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+#contact .contactForm {
+  display: none;
+  text-align: -webkit-center;
+  text-align: -ms-center;
+  text-align: -moz-center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+#contact .contactForm label {
+  color: white;
+}
+#contact .contactForm input,
+#contact .contactForm textarea {
+  margin-bottom: 1em;
+}
+#contact .contactForm input:focus,
+#contact .contactForm textarea:focus {
+  transform: scale(1.03);
+  border: 3px solid black;
+  background-color: #fefefe;
+  outline: none;
+  box-shadow: 1px 1px 6px 0px azure;
+  transition: box-shadow 0.5s ease-in-out, border-color 0.5s ease-in-out, transform 0.5s ease;
+}
+#contact .contactForm .errorForm {
+  color: darkorange;
+}
+#contact .contactForm .button.secondary {
+  color: black;
+  background-color: white;
+  transition: .4s ease;
+}
+#contact .contactForm .button.secondary:hover {
+  transform: scale(1.03);
+  color: white;
+  background-color: black;
+  border: 1px solid white;
+}
+#backToTop {
+  opacity: 0;
+  z-index: 2;
+  position: fixed;
+  bottom: 1em;
+  right: 1em;
+  color: #eee;
+  padding: 13px;
+  background-color: rgba(0, 0, 0, 0.9);
+  border: 2px solid #eee;
+  border-radius: 50%;
+  transition: .4s ease;
+}
+#backToTop:hover {
+  transform: scale(1.15);
+  background-color: rgba(255, 255, 255, 0.9);
+  color: black;
+  border-color: black;
+}
+#footer {
+  background-color: black;
+  color: white;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+#footer .social-media i {
+  font-size: 1.5em;
+  cursor: pointer;
+  margin: auto 1em;
+  display: inline-block;
+  position: relative;
+  background-color: black;
+  color: #eee;
+  transition: .4s ease;
+  padding: 2px;
+  margin: auto 10px;
+}
+#footer .social-media i:after {
+  content: '';
+  display: block;
+  margin: auto;
+  height: 2.5px;
+  width: 0px;
+  background: transparent;
+  transition: width 0.4s ease, background-color 0.4s ease;
+}
+#footer .social-media i:hover {
+  background-color: #eee;
+  color: black;
+}
+#footer .social-media i:hover:after {
+  background-color: black;
+  color: black;
+  width: 100%;
+}
+#footer .social-media i:after {
+  height: 2px;
+}
+#footer .social-media i a {
+  font-size: 17px;
+}
+.slicknav_menu {
+  display: none;
+}
+@media screen and (max-width: 925px) {
+  /* #menu is the original menu */
+  #menu {
+    display: none;
+  }
+  .siteTitle {
+    text-align: center;
+  }
+  .slicknav_menu {
+    display: block;
+    background-color: black;
+  }
+  .slicknav_menu .slicknav_btn {
+    border-radius: 0;
+  }
+  .slicknav_menu .slicknav_nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .slicknav_menu .slicknav_nav a {
+    margin: auto 1em;
+    display: inline-block;
+    position: relative;
+    background-color: black;
+    color: #eee;
+    transition: .4s ease;
+  }
+  .slicknav_menu .slicknav_nav a:after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 2.5px;
+    width: 0px;
+    background: transparent;
+    transition: width 0.4s ease, background-color 0.4s ease;
+  }
+  .slicknav_menu .slicknav_nav a:hover {
+    background-color: #eee;
+    color: black;
+  }
+  .slicknav_menu .slicknav_nav a:hover:after {
+    background-color: black;
+    color: black;
+    width: 100%;
+  }
+  .slicknav_menu .slicknav_nav a:hover {
+    border-radius: 0;
+  }
+  .slicknav_menu .slicknav_nav a:after {
+    height: 1.5px;
+  }
+}

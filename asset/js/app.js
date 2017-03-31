@@ -4,12 +4,15 @@ $(document).foundation();
 ///////////////////////////////////////////////////////////////////////////
 //SLICKNAV
 $(function(){
-	$('#menu').slicknav();
+	$('#menu').slicknav({
+		closeOnClick: true
+	});
 });
 
-//slicknav menu click smooth scroll
+//smooth scroll to anchor from slicknav menu
 $(document).on('click', ".slicknav_nav .scroll", function(e) {
     e.preventDefault();
+
     var h = $('#menu').outerHeight();
     if (!$('#menu').is(":visible")) {
         h = $('.slicknav_menu .slicknav_btn').outerHeight();
@@ -19,7 +22,7 @@ $(document).on('click', ".slicknav_nav .scroll", function(e) {
         offset: -h,
         scrollTarget: link.hash
     });
-    if(link = "a[href='#contact']" && $('.contactForm:hidden')) {
+    if(link.hash == "#contact" && $('.contactForm:hidden')) {
       $('.contactForm').slideDown('slow');
     }
 });
@@ -29,10 +32,12 @@ $('#menu li').on('click', 'a', function(event){
     event.preventDefault();
 
     var target = $(event.target);
+		//slide down contact form if clicked on contact li
     if(target.is("a[href='#contact']") && $('.contactForm:hidden')) {
     	$('.contactForm').slideDown('slow');
     }
 
+		//move body to anchor
     $('html, body').animate({
         scrollTop: $( $.attr(this, 'href') ).offset().top + 'px'
     }, "slow");
@@ -152,6 +157,6 @@ $("#backToTop").on('click', function(e) {
 	}
 
   if($('.slicknav_nav:hidden')) {
-    $('#menu').slicknav('close');
+    $('#menu').slicknav('open');
   }
 });
