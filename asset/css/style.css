@@ -132,11 +132,11 @@ body {
   bottom: 0;
 }
 #presentation .slickslider .slick-arrow {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
   position: relative;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding: 5px 40px 5px 40px;
   color: black;
   background-color: white;
   border: .5px solid black;
@@ -148,11 +148,9 @@ body {
   border: .5px solid white;
 }
 #presentation .slickslider .slick-prev {
-  left: 50%;
   top: 2.8em;
 }
 #presentation .slickslider .slick-next {
-  left: 50%;
   bottom: 2.8em;
 }
 #presentation .slickslider .one-slide {

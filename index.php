@@ -46,7 +46,7 @@ include 'inc/contact.php';
           <h1><a href="index.php">Neustrie</a></h1>
         </div>
       </div>
-      <div class="top-bar-right">
+      <div class="top-bar-right animated fadeInRight">
         <ul id="menu" class="menu">
           <li><a href="#presentation" class="scroll">Présentation</a></li>
           <li><a href="#qui-sommes-nous" class="scroll">Qui sommes-nous ?</a></li>
