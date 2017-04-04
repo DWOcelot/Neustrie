@@ -222,7 +222,7 @@ include 'inc/contact.php';
     integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
     crossorigin="anonymous"></script>
     <!-- Foundation JS -->
-    <script src="asset/js/vendor/foundation.min.js"></script>
+    <script src="asset/js/foundation/foundation.min.js"></script>
     <!-- Slicknav JS -->
     <script src="asset/js/jquery.slicknav.min.js"></script>
     <!-- Slicknav smooth Scroll JS -->
