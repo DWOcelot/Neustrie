@@ -188,30 +188,31 @@ include 'inc/contact.php';
         </button>
       </div>
 
+    <!-- end main -->
+    </main>
 
 
-      <!-- FOOTER -->
-      <footer id="footer">
-        <!-- second row footer -->
-        <div class="row">
-          <div class="small-12 columns text-center">
-            <p><i>Copyright © 2017 Neustrie Prod, Tous droits réservés</i></p>
-            <div class="social-media">
-              <i class="fa fa-facebook" aria-hidden="true">
-                <a href="https://www.facebook.com/profile.php?id=100013546516510&lst=1173154471%3A100013546516510%3A1486460172" target="_blank">Neustrie Prod.</a>
-              </i>
-              <i class="fa fa-envelope-o" aria-hidden="true">
-                <a href="mailto:benoit.blondel12@gmail.com">Contacter le Webmaster</a>
-              </i>
-              <i class="fa fa-github" aria-hidden="true">
-                <a href="https://github.com/DWOcelot" target="_blank">DWOcelot</a>
-              </i>
-            </div>
+    <!-- FOOTER -->
+    <footer id="footer">
+      <!-- second row footer -->
+      <div class="row">
+        <div class="small-12 columns text-center">
+          <p><i>Copyright © 2017 Neustrie Prod, Tous droits réservés</i></p>
+          <div class="social-media">
+            <i class="fa fa-facebook" aria-hidden="true">
+              <a href="https://www.facebook.com/profile.php?id=100013546516510&lst=1173154471%3A100013546516510%3A1486460172" target="_blank">Neustrie Prod.</a>
+            </i>
+            <i class="fa fa-envelope-o" aria-hidden="true">
+              <a href="mailto:benoit.blondel12@gmail.com">Contacter le Webmaster</a>
+            </i>
+            <i class="fa fa-github" aria-hidden="true">
+              <a href="https://github.com/DWOcelot" target="_blank">DWOcelot</a>
+            </i>
           </div>
         </div>
-      </footer>
+      </div>
+    </footer>
 
-    </main>
     <!-- SCRIPTS -->
     <!-- JQuery -->
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"
